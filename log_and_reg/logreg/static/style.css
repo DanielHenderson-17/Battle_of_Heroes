@@ -1,0 +1,51 @@
+body {
+  background: url("/static/spacebackground.jpg");
+  background-size: 100%;
+}
+
+.title {
+  display: block;
+  top: 15%;
+  right: 15%;
+  width: 70%;
+  margin: 30px auto 70px auto;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    width: 100%;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto 5px 0;
+}
+
+.wrapper, .errors {
+  background-color: rgba(245, 245, 245, 0.253);
+  display: flex;
+  width: 40%;
+  margin: 10px auto;
+  justify-content: space-between;
+  border: 1px solid grey;
+  border-radius: 18px;
+  box-shadow: 3px 3px rgb(12, 12, 12);
+}
+
+.register,
+.login {
+  display: block;
+  width: 40%;
+  margin: 0 auto 30px;
+}
+
+.errors li {
+    font-style: italic;
+    list-style: none;
+    color: red;
+    font-weight: bolder;
+}

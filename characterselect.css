@@ -1,0 +1,37 @@
+html , body 
+{ 
+    background-image: url(background/spacebackground.jpg);
+    background-size:100%;
+    margin: 0;
+    height: 100%;
+}
+.title
+{
+    position: absolute;
+    left: 26%;
+    top: 2%;
+}
+.carousel
+{
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    margin-left: -350px;
+    margin-top: -900px;
+    width: 800px;
+    height: 1100px;
+}
+.carousel-item
+{
+    width: 400px;
+    height: 900px;
+}
+.charselect
+{
+    position: absolute;
+    left: 35%;
+    top: 90%;
+    margin-right: 100px;
+    margin-bottom: -110px;
+    width: 600px;
+}

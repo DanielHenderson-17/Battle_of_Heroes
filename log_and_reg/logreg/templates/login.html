@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Battle of Heroes!</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'style.css' %}" />
+  </head>
+  <body>
+    <img class="title" src="{% static 'title.png' %}">
+
+    <div class="wrapper">
+      <div class="login">
+        <h2>Login</h2>
+        <form action="/login" method="post">
+          {% csrf_token %} 
+          Email:<input type="email" name="email"/> 
+          Password:<input type="password" name="pw"/>
+          <input type="submit" value="Login"/>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
